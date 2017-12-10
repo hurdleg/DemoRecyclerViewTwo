@@ -25,7 +25,7 @@ import mad9132.demorecyclerview.model.CoursePOJO;
  */
 public class MainActivity extends Activity {
 
-    // TODO #1 - a JSON array of course JSON objects, represented as a String
+    // TODO #2 - a JSON array of course JSON objects, represented as a String
     private final static String COURSE_DATA_JSON_STRING = "[{" +
             "\"courseId\": 1," +
             "\"code\": \"MAD9014\"," +
@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // TODO #2 - convert the JSON String to an ArrayList of CoursePOJO objects
+        // TODO #3 - convert the JSON String to an ArrayList of CoursePOJO objects
         // collection of course objects; use an ArrayList, with each element of type CoursePOJO
         // 1. Convert the JSON String to an array of CoursePOJO[]
         // 2. Convert the array to an ArrayList<CoursePOJO>
